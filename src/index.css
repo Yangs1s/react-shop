@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bangers&family=Luckiest+Guy&display=swap');
+
+:root {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 16px;
+  font-weight: 400;
+
+  --clr-bg-dark: #1f2937; /* gray-800 */
+  --clr-bg-light: #fafafa; /* zinc-50 */
+
+  --clr-text-dark: #1f2937; /* gray-200 */
+  --clr-text-light: #fafafa; /* zinc-50 */
+
+  color-scheme: light dark;
+
+  background-color: #242424;
+
+  color:#fbffeb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+img{
+  height: 800px;
+}
+
+h1 {
+
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.axis-vertical{
+  display: none;
+}
+
+.main{
+  width: var(calc(100vh-4rem-224px));
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+li{
+  margin: 7px;
+}
+
+
+.dark {
+  @apply bg-slate-800 text-zinc-50 ease-in duration-100
+}
+
+.light {
+  @apply bg-white text-black ease-in duration-100
+}
+
+
+.dark-nav{
+  @apply bg-slate-900 text-zinc-50 ease-in duration-100
+}
+.dark-input{
+  @apply bg-slate-50 text-zinc-900 ease-in duration-100
+}
+
+
+.light-nav {
+  @apply bg-yellow-100 text-black ease-in duration-100
+}
+.light-input {
+  @apply bg-zinc-300 text-zinc-800 ease-in duration-100
+}
+
