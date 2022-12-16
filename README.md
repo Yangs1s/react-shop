@@ -24,4 +24,5 @@
  <img src="https://user-images.githubusercontent.com/92585734/208072170-99f5501c-14ed-44c0-b300-bd8d1848f98f.gif"> 
 
   카테고리 별로 아이템들 리스트 배열 
-
+  캐러셀 기능 
+  다크모드 
