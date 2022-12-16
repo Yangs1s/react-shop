@@ -14,8 +14,8 @@
   <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
   <img src="https://img.shields.io/badge/tailwind-06B6D4?style=for-the-badge&logo=tailwindCss&logoColor=black">
    <img src="https://img.shields.io/badge/tailwind-646CFF?style=for-the-badge&logo=vite&logoColor=yellow"> 
-   <img src="https://img.shields.io/badge/recoil-0075EB?style=for-the-badge&logo=recoil&logoColor=black">  전역상태관리를 해야하기에 사용했습니다.
-</div>
+   <img src="https://img.shields.io/badge/recoil-0075EB?style=for-the-badge&logo=recoil&logoColor=black">  
+  </div>
 
 # 그외 사용한 라이브러리
   react-carousel-responsive: 캐러셀때문에 사용하였다.
